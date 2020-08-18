@@ -1,0 +1,10 @@
+Version 0.0.1:
+  ☐ Add base structure
+  ✔ Base for README @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Setup package.json @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Review License @done(2020-08-18 22:22) @project(Version 0.0.1)
+  ✔ Check remarkrc @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Check gitignore @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Check eslintrc @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Check eslintignore @done(2020-08-18 22:28) @project(Version 0.0.1)
+  ✔ Check commitlintrc @done(2020-08-18 22:27) @project(Version 0.0.1)

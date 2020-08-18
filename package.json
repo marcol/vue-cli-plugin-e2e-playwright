@@ -1,33 +1,40 @@
 {
   "name": "vue_cli_plugin_e2e_playwright",
-  "version": "0.1.0",
-  "description": "vue_cli_plugin_e2e_playwright",
-  "keywords": [],
-  "homepage": "",
-  "bugs": "",
+  "version": "0.0.1",
+  "description": "Vue CLI plugin for e2e testing with Playwright",
+  "keywords": [
+    "Playwright",
+    "vue",
+    "vuejs",
+    "vue-cli",
+    "vue/cli-plugin",
+    "e2e",
+    "plugin"
+  ],
+  "homepage": "https://github.com/marcol/vue-cli-plugin-e2e-playwright",
+  "bugs": "https://github.com/marcol/vue-cli-plugin-e2e-playwright/issues",
   "license": "ISC",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/marcol/vue-cli-plugin-e2e-playwright.git"
   },
   "author": "Marco Dias Lopes <rhino@pacodacomenda.com>",
   "scripts": {
-    "lint:js": "eslint .; exit 0",
     "lint": "yarn lint:js; yarn lint:md",
-    "lint:md": "remark .; exit 0"
+    "lint:js": "eslint .",
+    "lint:md": "remark ."
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.7.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-filenames": "^1.3.2",
-    "eslint-plugin-html": "^6.0.3",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-markdown": "^1.0.2",
-    "eslint-plugin-mocha": "^8.0.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
@@ -36,7 +43,6 @@
     "remark-lint": "^7.0.1",
     "remark-preset-lint-markdown-style-guide": "^3.0.1"
   },
-  "devDependencies": {},
   "husky": {
     "husky": {
       "hooks": {
