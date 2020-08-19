@@ -1,15 +1,12 @@
-Version 0.0.1:
-  ☐ Add base structure
-  ✔ Base for README @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Setup package.json @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Review License @done(2020-08-18 22:22) @project(Version 0.0.1)
-  ✔ Check remarkrc @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Check gitignore @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Check eslintrc @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Check eslintignore @done(2020-08-18 22:28) @project(Version 0.0.1)
-  ✔ Check commitlintrc @done(2020-08-18 22:27) @project(Version 0.0.1)
-
 Version 0.0.2:
+  ✔ Add scripts to package.json @done(2020-08-19 21:29) @project(Version 0.0.2)
+  ☐ Adds test structure
+  ☐ Define options
+  ☐ Implement options
+  ☐ Update docs
+  ☐ Update README
+
+Version 0.0.3:
   ☐ Add badges
   ☐ Add ci workflow
   ☐ Add ci workflow to github actions
@@ -19,9 +16,23 @@ Version 0.0.2:
   ☐ Update README
   ☐ Publish to npm
   ☐ Create release
+  ☐ Implement unit tests
+  ☐ Augment the task in the UI
+  ☐ Prompts
 
 References:
   ☐ https://cli.vuejs.org/core-plugins/unit-mocha.html#injected-commands
   ☐ https://cli.vuejs.org/core-plugins/e2e-nightwatch.html
   ☐ https://cli.vuejs.org/dev-guide/plugin-dev.html#service-plugin
   ☐ https://playwright.dev/
+
+Version 0.0.1:
+  ✔ Add base structure @done(2020-08-19 21:06) @project(Version 0.0.1)
+  ✔ Base for README @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Setup package.json @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Review License @done(2020-08-18 22:22) @project(Version 0.0.1)
+  ✔ Check remarkrc @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Check gitignore @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Check eslintrc @done(2020-08-18 22:52) @project(Version 0.0.1)
+  ✔ Check eslintignore @done(2020-08-18 22:28) @project(Version 0.0.1)
+  ✔ Check commitlintrc @done(2020-08-18 22:27) @project(Version 0.0.1)
