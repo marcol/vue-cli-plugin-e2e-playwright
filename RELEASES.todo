@@ -8,3 +8,19 @@ Version 0.0.1:
   ✔ Check eslintrc @done(2020-08-18 22:52) @project(Version 0.0.1)
   ✔ Check eslintignore @done(2020-08-18 22:28) @project(Version 0.0.1)
   ✔ Check commitlintrc @done(2020-08-18 22:27) @project(Version 0.0.1)
+
+Version 0.0.2:
+  ☐ Add ci workflow
+  ☐ Add ci workflow to github actions
+  ☐ Add publish workflow to github actions
+  ☐ Update docs
+  ☐ Implement unit tests
+  ☐ Update README
+  ☐ Publish to npm
+  ☐ Create release
+
+References:
+  ☐ https://cli.vuejs.org/core-plugins/unit-mocha.html#injected-commands
+  ☐ https://cli.vuejs.org/core-plugins/e2e-nightwatch.html
+  ☐ https://cli.vuejs.org/dev-guide/plugin-dev.html#creating-new-templates
+  ☐ https://playwright.dev/
