@@ -15,11 +15,9 @@
     "sourceType": "module"
   },
   "plugins": [
-    "html",
     "markdown",
     "json-format",
-    "filenames",
-    "mocha"
+    "filenames"
   ],
   "rules": {
     "indent": ["warn", 2],
