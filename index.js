@@ -1,24 +1,6 @@
 const { info, execa } = require('@vue/cli-shared-utils')
 
 /**
- * Close process
- * @param  {Object} server Dev server from vue-cli-service or null if url
- * @param  {Object} runner execa runner
- * @return void
- */
-function close (server, runner) {
-  if (server) {
-    server.close()
-  }
-
-  if (process.env.VUE_CLI_TEST) {
-    runner.on('exit', code => {
-      process.exit(code)
-    })
-  }
-}
-
-/**
  * Get files holding tests
  * @param  {Object} args Arguments object from test
  * @return {Array}       Array with files blob
@@ -44,7 +26,15 @@ module.exports = (api, options) => {
       ...getFiles(args)
     ], { stdio: 'inherit' })
 
-    close(server, runner)
+    if (server) {
+      server.close()
+    }
+
+    if (process.env.VUE_CLI_TEST) {
+      runner.on('exit', code => {
+        process.exit(code)
+      })
+    }
   }
 
   api.registerCommand('test:e2e', {

@@ -1,16 +1,26 @@
+Version 0.3.3:
+  ☐ Implement unit tests
+    ☐ example test
+    ☐ env variables
+    ☐ close server
+    ☐ get files blob
+    ☐ start dev server
+    ☐ execute command
+    ☐ flags execusion
+    ☐ Adds script
+    ☐ Test folder structure
+    ☐ eslint global for mocha
+  ☐ Update README
+
+Version 0.5.0:
+  ☐ Augment the task in the UI
+  ☐ Prompts
+
 Version 0.3.0:
   ✔ Add badges @done(2020-08-21 20:42) @project(Version 0.3.0)
   ✔ Add publish workflow to github actions @done(2020-08-21 20:46) @project(Version 0.3.0)
-  ☐ Add ci workflow
-  ☐ Add ci workflow to github actions
-
-Version 0.5.0:
-  ☐ Update docs
-  ☐ Implement unit tests
-  ☐ Update README
-  ☐ Implement unit tests
-  ☐ Augment the task in the UI
-  ☐ Prompts
+  ✔ Add ci workflow @done(2020-08-21 21:14) @project(Version 0.3.0)
+  ✔ Add ci workflow to github actions @done(2020-08-21 21:14) @project(Version 0.3.0)
 
 Version 0.2.0:
   ✔ Define options @done(2020-08-21 20:14) @project(Version 0.2.0)
