@@ -1,6 +1,6 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/vue-cli-plugin-e2e-playwright?logo=npm&style=flat-square)](https://www.npmjs.com/package/vue-cli-plugin-e2e-playwright)
 [![NPM Version](https://img.shields.io/npm/v/vue-cli-plugin-e2e-playwright?logo=npm&style=flat-square)](https://www.npmjs.com/package/vue-cli-plugin-e2e-playwright)
-[![Dependencies](https://img.shields.io/librariesio/release/npm/vue-cli-plugin-e2e-playwright?style=flat-square)](https://libraries.io/npm/vue-cli-plugin-e2e-playwright)
+[![CI](https://img.shields.io/github/workflow/status/marcol/vue-cli-plugin-e2e-playwright/CI?logo=github&style=flat-square)](https://github.com/marcol/vue-cli-plugin-e2e-playwright)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?logo=javascript&style=flat-square)](https://standardjs.com)
 
 # vue-cli-plugin-e2e-playwright
