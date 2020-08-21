@@ -32,5 +32,16 @@
   "settings": {
     "html/indent": "+2",
     "html/report-bad-indent": "warn"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/*.{j,t}s?(x)",
+        "**/tests/e2e/**/*.spec.{j,t}s?(x)"
+      ],
+      "env": {
+        "mocha": true
+      }
+    }
+  ]
 }

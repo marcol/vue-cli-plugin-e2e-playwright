@@ -1,30 +1,22 @@
+Version 0.3.0:
+  ✔ Add badges @done(2020-08-21 20:42) @project(Version 0.3.0)
+  ✔ Add publish workflow to github actions @done(2020-08-21 20:46) @project(Version 0.3.0)
+  ☐ Add ci workflow
+  ☐ Add ci workflow to github actions
+
+Version 0.5.0:
+  ☐ Update docs
+  ☐ Implement unit tests
+  ☐ Update README
+  ☐ Implement unit tests
+  ☐ Augment the task in the UI
+  ☐ Prompts
+
 Version 0.2.0:
   ✔ Define options @done(2020-08-21 20:14) @project(Version 0.2.0)
   ✔ Implement options @done(2020-08-21 20:14) @project(Version 0.2.0)
   ✔ Update docs @done(2020-08-21 20:15) @project(Version 0.2.0)
   ✔ Update README @done(2020-08-21 20:15) @project(Version 0.2.0)
-
-Version 0.3.0:
-  ☐ Add badges
-  ☐ Define options for playwright
-  ☐ Implement options for playwright
-  ☐ Augment the task in the UI
-  ☐ Prompts
-  ☐ Update docs
-  ☐ Update README
-  ☐ Create release
-  ☐ Publish to npm
-
-Version 0.5.0:
-  ☐ Add ci workflow
-  ☐ Add ci workflow to github actions
-  ☐ Add publish workflow to github actions
-  ☐ Update docs
-  ☐ Implement unit tests
-  ☐ Update README
-  ☐ Implement unit tests
-  ☐ Augment the task in the UI
-  ☐ Prompts
 
 Version 0.1.0:
   ✔ Add scripts to package.json @done(2020-08-19 21:40) @project(Version 0.1.0)
