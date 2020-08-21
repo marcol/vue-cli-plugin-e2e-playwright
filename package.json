@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-e2e-playwright",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Vue CLI plugin for e2e testing with Playwright",
   "keywords": [
     "playwright",
@@ -23,7 +23,8 @@
   "scripts": {
     "lint": "yarn lint:js; yarn lint:md",
     "lint:js": "eslint .",
-    "lint:md": "remark ."
+    "lint:md": "remark .",
+    "test": "mocha __tests__/*.js"
   },
   "dependencies": {
     "mocha": "^8.1.1",
