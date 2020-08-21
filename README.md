@@ -3,7 +3,7 @@
 
 ## Installing
 ```bash
-vue add plugin-e2e-playwright
+vue add e2e-playwright
 ```
 
 ## Running
