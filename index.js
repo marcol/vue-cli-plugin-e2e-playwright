@@ -6,7 +6,7 @@ const { info, execa } = require('@vue/cli-shared-utils')
  * @return {Array}       Array with files blob
  */
 function getFiles (args) {
-  return (args._ && args._.length) ? [] : ['**/tests/e2e/**/*.spec.{j,t}s?(x)']
+  return (args._ && args._.length) ? [] : ['tests/e2e/**/*.spec.{j,t}s?(x)']
 }
 
 module.exports = (api, options) => {
@@ -20,10 +20,10 @@ module.exports = (api, options) => {
     info('Running Playwright E2E tests...')
     const runner = await execa('node', [
       bin,
+      ...getFiles(args),
       '--timeout',
       90000,
-      ...rawArgs,
-      ...getFiles(args)
+      ...rawArgs
     ], { stdio: 'inherit' })
 
     if (server) {
