@@ -1,15 +1,27 @@
-Version 0.1.1:
-  ☐ Define options
-  ☐ Implement options
+Version 0.2.0:
+  ✔ Define options @done(2020-08-21 20:14) @project(Version 0.2.0)
+  ✔ Implement options @done(2020-08-21 20:14) @project(Version 0.2.0)
+  ✔ Update docs @done(2020-08-21 20:15) @project(Version 0.2.0)
+  ✔ Update README @done(2020-08-21 20:15) @project(Version 0.2.0)
+
+Version 0.3.0:
   ☐ Add badges
+  ☐ Define options for playwright
+  ☐ Implement options for playwright
+  ☐ Augment the task in the UI
+  ☐ Prompts
+  ☐ Update docs
+  ☐ Update README
+  ☐ Create release
+  ☐ Publish to npm
+
+Version 0.5.0:
   ☐ Add ci workflow
   ☐ Add ci workflow to github actions
   ☐ Add publish workflow to github actions
   ☐ Update docs
   ☐ Implement unit tests
   ☐ Update README
-  ☐ Publish to npm
-  ☐ Create release
   ☐ Implement unit tests
   ☐ Augment the task in the UI
   ☐ Prompts

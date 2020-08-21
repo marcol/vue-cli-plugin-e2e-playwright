@@ -9,7 +9,7 @@ vue add plugin-e2e-playwright
 ## Running
 Run `yarn test:e2e` or `npm run test:e2e` to run your end-to-end tests.
 
-## Changes
+## Changes to your project
 - Adds `vue-cli-service test:2e2` to `package.json` scripts
 - Sets Mocha as global variable in eslint in the `*.spec.js` files inside `tests/e2e` in `package.json`
 - Adds Chai and Playwright as dev dependencies in `package.json`
@@ -19,8 +19,9 @@ Run `yarn test:e2e` or `npm run test:e2e` to run your end-to-end tests.
 ### Options
 ```bash
 // options
-  --timeout     test timeout in ms, default 90000
-  --url         url to test, it will not start the dev server
-  -- Browser    define browser to run tests (chromium, firefox, webkit),
-                default chromium
+--timeout     test timeout in ms, default 90000
+--url         url to test, it will not start the dev server
+--browser     define browser to run tests (chromium, firefox, webkit),
+              default chromium
 ```
+Check more [options](https://mochajs.org/#command-line-usage) for Mocha.
