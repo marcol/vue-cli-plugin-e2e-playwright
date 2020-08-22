@@ -9,14 +9,17 @@ function getFiles (args) {
   return (args._ && args._.length) ? [] : ['tests/e2e/**/*.spec.{j,t}s?(x)']
 }
 
+function store (url, args) {
+  process.env.VUE_DEV_SERVER_URL = url
+  process.env.VUE_BROWSER_ENGINE = args.browser || 'chromium'
+}
+
 module.exports = (api, options) => {
   async function handler (args, rawArgs) {
     const bin = require.resolve('mocha/bin/mocha')
-    const { server, url } = args.url ? {} : await api.service.run('serve')
+    const { server, url } = args.url ? { url: args.url } : await api.service.run('serve')
 
-    process.env.VUE_DEV_SERVER_URL = url
-    process.env.VUE_BROWSER_ENGINE = args.browser || 'chromium'
-
+    store(url, args)
     info('Running Playwright E2E tests...')
     const runner = await execa('node', [
       bin,
@@ -31,9 +34,7 @@ module.exports = (api, options) => {
     }
 
     if (process.env.VUE_CLI_TEST) {
-      runner.on('exit', code => {
-        process.exit(code)
-      })
+      process.exit(runner.code)
     }
   }
 
