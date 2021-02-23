@@ -1,4 +1,4 @@
-Version 0.3.5:
+Version 1.0.0:
   ☐ Implement unit tests
     ☐ example test
     ☐ env variables
@@ -11,10 +11,9 @@ Version 0.3.5:
     ☐ Test folder structure
     ☐ eslint global for mocha
   ☐ Update README
-
-Version 0.5.0:
   ☐ Augment the task in the UI
   ☐ Prompts
+  ☐ Updates Husky to 5
 
 Version 0.3.0:
   ✔ Add badges @done(2020-08-21 20:42) @project(Version 0.3.0)
