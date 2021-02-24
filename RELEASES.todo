@@ -1,4 +1,4 @@
-Version 1.0.0:
+Version 1+
   ☐ Implement unit tests
     ☐ example test
     ☐ env variables
@@ -10,9 +10,10 @@ Version 1.0.0:
     ☐ Adds script
     ☐ Test folder structure
     ☐ eslint global for mocha
-  ☐ Update README
   ☐ Augment the task in the UI
   ☐ Prompts
+
+Version 1.0.0:
   ✔ Updates Husky to 5 @done(2021-02-24 18:43) @project(Version 1.0.0)
 
 Version 0.3.0:
