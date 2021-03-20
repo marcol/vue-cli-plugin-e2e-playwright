@@ -21,7 +21,8 @@ module.exports = (api, options) => {
 
     store(url, args)
     info('Running Playwright E2E tests...')
-    const runner = await execa('node', [
+
+    const runner = execa('node', [
       bin,
       ...getFiles(args),
       '--timeout',
@@ -30,12 +31,17 @@ module.exports = (api, options) => {
     ], { stdio: 'inherit' })
 
     if (server) {
-      server.close()
+      runner.on('exit', () => server.close())
+      runner.on('error', () => server.close())
     }
 
     if (process.env.VUE_CLI_TEST) {
-      process.exit(runner.code)
+      runner.on('exit', code => {
+        process.exit(code)
+      })
     }
+
+    return runner
   }
 
   api.registerCommand('test:e2e', {
