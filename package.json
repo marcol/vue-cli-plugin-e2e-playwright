@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-e2e-playwright",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Vue CLI plugin for e2e testing with Playwright",
   "private": false,
   "keywords": [

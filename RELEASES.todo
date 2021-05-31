@@ -1,4 +1,4 @@
-Version 1+
+Version 2:
   ☐ Implement unit tests
     ☐ example test
     ☐ env variables
@@ -12,35 +12,6 @@ Version 1+
     ☐ eslint global for mocha
   ☐ Augment the task in the UI
   ☐ Prompts
-
-Version 1.0.0:
-  ✔ Updates Husky to 5 @done(2021-02-24 18:43) @project(Version 1.0.0)
-
-Version 0.3.0:
-  ✔ Add badges @done(2020-08-21 20:42) @project(Version 0.3.0)
-  ✔ Add publish workflow to github actions @done(2020-08-21 20:46) @project(Version 0.3.0)
-  ✔ Add ci workflow @done(2020-08-21 21:14) @project(Version 0.3.0)
-  ✔ Add ci workflow to github actions @done(2020-08-21 21:14) @project(Version 0.3.0)
-
-Version 0.2.0:
-  ✔ Define options @done(2020-08-21 20:14) @project(Version 0.2.0)
-  ✔ Implement options @done(2020-08-21 20:14) @project(Version 0.2.0)
-  ✔ Update docs @done(2020-08-21 20:15) @project(Version 0.2.0)
-  ✔ Update README @done(2020-08-21 20:15) @project(Version 0.2.0)
-
-Version 0.1.0:
-  ✔ Add scripts to package.json @done(2020-08-19 21:40) @project(Version 0.1.0)
-  ✔ Adds test structure @done(2020-08-19 21:56) @project(Version 0.1.0)
-  ✔ Update README @done(2020-08-19 22:09) @project(Version 0.1.0)
-  ✔ Update docs @done(2020-08-19 22:09) @project(Version 0.1.0)
-
-Version 0.0.1:
-  ✔ Add base structure @done(2020-08-19 21:06) @project(Version 0.0.1)
-  ✔ Base for README @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Setup package.json @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Review License @done(2020-08-18 22:22) @project(Version 0.0.1)
-  ✔ Check remarkrc @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Check gitignore @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Check eslintrc @done(2020-08-18 22:52) @project(Version 0.0.1)
-  ✔ Check eslintignore @done(2020-08-18 22:28) @project(Version 0.0.1)
-  ✔ Check commitlintrc @done(2020-08-18 22:27) @project(Version 0.0.1)
+  □ Move to Jest
+  □ Improve scripts
+  □ Update dependencies
