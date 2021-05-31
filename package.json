@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-e2e-playwright",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Vue CLI plugin for e2e testing with Playwright",
   "private": false,
   "keywords": [
@@ -24,13 +24,14 @@
   },
   "author": "Marco Dias Lopes <rhino@pacodacomenda.com>",
   "scripts": {
-    "lint": "yarn lint:js; yarn lint:md",
+    "lint": "node scripts/lint.js",
     "lint:js": "eslint .",
     "lint:md": "remark .",
-    "test": "mocha __tests__/*.js",
+    "test": "mocha tests/*.spec.js",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postpublish": "pinst --enable",
+    "release": "node scripts/release.js"
   },
   "dependencies": {
     "chai": "^4.3.4",
@@ -51,10 +52,13 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
     "husky": "^6.0.0",
+    "listr": "^0.14.3",
     "pinst": "^2.1.6",
     "remark-cli": "^9.0.0",
     "remark-lint": "^8.0.0",
-    "remark-preset-lint-markdown-style-guide": "^4.0.0"
+    "remark-preset-lint-markdown-style-guide": "^4.0.0",
+    "shelljs": "^0.8.4",
+    "sugar-chalk": "^1.6.5"
   },
   "resolutions": {
     "**/lodash": "^4.17.21",
