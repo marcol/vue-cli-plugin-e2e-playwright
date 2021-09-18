@@ -6,17 +6,17 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   build:
     name: Run tests
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: ['12', '14']
+        node-version: ['14', '16']
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
