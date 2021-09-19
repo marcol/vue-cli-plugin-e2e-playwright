@@ -39,3 +39,4 @@ tmp/
 .yarn-integrity
 Desktop.ini
 Thumbs.db
+vue-cli-plugin-e2e-playwright.code-workspace
