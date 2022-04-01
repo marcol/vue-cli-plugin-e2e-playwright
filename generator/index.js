@@ -6,9 +6,9 @@ module.exports = (api) => {
       'test:e2e': 'vue-cli-service test:e2e'
     },
     devDependencies: {
-      '@vue/test-utils': '^1.0.4',
-      chai: '^4.1.2',
-      playwright: '^1.3.0'
+      '@vue/test-utils': '^1.3.0',
+      chai: '^4.3.6',
+      playwright: '^1.20.2'
     },
     eslintConfig: {
       overrides: [
