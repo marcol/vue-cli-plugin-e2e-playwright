@@ -1,7 +1,7 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/vue-cli-plugin-e2e-playwright?logo=npm&style=flat-square)](https://www.npmjs.com/package/vue-cli-plugin-e2e-playwright)
 [![NPM Version](https://img.shields.io/npm/v/vue-cli-plugin-e2e-playwright?logo=npm&style=flat-square)](https://www.npmjs.com/package/vue-cli-plugin-e2e-playwright)
 [![Open Issues](https://img.shields.io/github/issues/marcol/vue-cli-plugin-e2e-playwright?logo=github&style=flat-square)](https://github.com/marcol/vue-cli-plugin-e2e-playwright/issues)
-[![CI](https://img.shields.io/github/workflow/status/marcol/vue-cli-plugin-e2e-playwright/CI?label=CI&logo=github&style=flat-square)](https://github.com/marcol/vue-cli-plugin-e2e-playwright)
+[![CI](https://img.shields.io/github/workflow/status/marcol/vue-cli-plugin-e2e-playwright/test.yml?branch=main&label=CI&logo=github&style=flat-square)](https://github.com/marcol/vue-cli-plugin-e2e-playwright)
 
 # vue-cli-plugin-e2e-playwright
 [Vue CLI](https://cli.vuejs.org/) plugin for e2e testing with [Mocha](https://mochajs.org/) and [Playwright](https://playwright.dev/).
